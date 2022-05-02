@@ -73,7 +73,7 @@ function borrarTodo(){
 function serieSeleccionada(id){
      console.log("seleccione una serie"+id);
      arregloSeries.splice(id,1);//borrar desde arreglo
-     localStorage.setItem("seresKey",JSON.stringify(arregloSeries));
+     localStorage.setItem("seriesKey",JSON.stringify(arregloSeries));
      mostrarSeries();
 
 }
